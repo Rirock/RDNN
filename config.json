@@ -1,0 +1,31 @@
+{
+    "data_params": {
+        "data_root":"./",
+        "time_step": 2,
+        "predict_day": 1,
+        "batch_size": 2048,
+        "test_batch_size": 256,
+        "features":"S",
+        "cols":["Close", "Open", "High", "Low"],
+        "target":"Close",
+        "shuffle":true
+    },
+    "network_params": {
+        "hidden_size": 8,
+        "num_layers": 1
+    },
+    "train_params": {
+        "lr": 0.001,
+        "loss": "MSE",
+        "optimizer": "Adam",
+        "epoch": 20000,
+        "show_steps": 2,
+        "save_mode": "min",
+        "early_stop_epoch": 4000,
+        "update_lr_epoch":200
+    },
+    "log_params": {
+        "log_root": "logs"
+    },
+    "device":"cuda"
+}

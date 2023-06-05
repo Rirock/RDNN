@@ -1,0 +1,10 @@
+python main.py -m "RDNN" -d "./data" -n 10 --DNM_M 2 -l 2023-05-25-15
+python main.py -m "RDNN" -d "./data" -n 10 --DNM_M 4 -l 2023-05-25-15
+python main.py -m "RDNN" -d "./data" -n 10 --DNM_M 6 -l 2023-05-25-15
+python main.py -m "RDNN" -d "./data" -n 10 --DNM_M 8 -l 2023-05-25-15
+python main.py -m "RDNN" -d "./data" -n 10 --DNM_M 10 -l 2023-05-25-15
+python main.py -m "RDNN" -d "./data" -n 10 --DNM_M 12 -l 2023-05-25-15
+python main.py -m "RDNN" -d "./data" -n 10 --DNM_M 14 -l 2023-05-25-15
+python main.py -m "RDNN" -d "./data" -n 10 --DNM_M 16 -l 2023-05-25-15
+python main.py -m "RDNN" -d "./data" -n 10 --DNM_M 18 -l 2023-05-25-15
+python main.py -m "RDNN" -d "./data" -n 10 --DNM_M 20 -l 2023-05-25-15
